@@ -25,7 +25,22 @@
     <input type="text" id="user-name" size="40" maxlength="20">
     <button id="assessment">診断する</button>
     <div id="result-area"></div>
-    <div id="tweet-area"></div>
+   <div id="tweet-area">
+        <!--data-text：紹介文のテキスト
+        data-hashtags：タグ1,タグ2,タグ3（複数指定する場合は半角カンマ区切りで）
+        -->
+        <a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" 
+        class="twitter-hashtag-button" 
+        data-text="診断結果の文章" 
+        data-hashtags="あなたのいいところ" 
+        data-show-count="false"
+        >あなたのいいところをツイートする</a>
+        <script 
+            async 
+            src="https://platform.twitter.com/widgets.js" 
+            charset="utf-8"
+        ></script>
+    </div>
     <script src="assessment.js"></script>
 </body>
 </html>
