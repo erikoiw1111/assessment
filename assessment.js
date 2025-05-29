@@ -52,9 +52,9 @@ assessmentButton.onclick = () => { //アロー関数表記。assessmentButton.on
     tweetDivided.appendChild(anchor);
 
     //widgets.jsの設定
-    const script=document.createElement('script');
-    script.setAttribute('src','http://platform.twitter.com/widgets.js');
-    tweetDivided.appendChild(script);
+    const script1=document.createElement('script');
+    script1.setAttribute('src','http://platform.twitter.com/widgets.js');
+    tweetDivided.appendChild(script1);
 
 };
 const answers = [
