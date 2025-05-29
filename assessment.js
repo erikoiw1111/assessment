@@ -48,6 +48,7 @@ assessmentButton.onclick = () => { //アロー関数表記。assessmentButton.on
     anchor.setAttribute('href',hrefValue);
     anchor.className='twitter-share-button';//anchor.setAttribute('class','twitter-share-button');でもOK
     anchor.setAttribute('data-text',result);
+    anchor.innerText='#あなたのいいところ';
     anchor.setAttribute('data-lang', 'ja');
     anchor.setAttribute('data-show-count', 'false');
     tweetDivided.appendChild(anchor);
